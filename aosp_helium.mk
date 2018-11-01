@@ -17,8 +17,13 @@
 
 $(call inherit-product, device/xiaomi/helium/full_helium.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
+# Inherit some common PixelExperience stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
