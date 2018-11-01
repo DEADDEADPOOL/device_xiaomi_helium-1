@@ -15,4 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_helium.mk \
-    $(LOCAL_DIR)/lineage_helium.mk
+    $(LOCAL_DIR)/aosp_helium.mk
