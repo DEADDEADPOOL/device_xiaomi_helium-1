@@ -17,8 +17,8 @@
 
 $(call inherit-product, device/xiaomi/helium/full_helium.mk)
 
-# Inherit from custom vendor
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+
+
 
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
