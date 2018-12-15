@@ -30,7 +30,47 @@ PRODUCT_COPY_FILES += \
 
 # Xiaomi Shit
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     XiaomiShit
+=======
+    AntHalService \
+    com.dsi.ant.antradio_library
+
+PRODUCT_COPY_FILES += \
+    external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
+
+# Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.qcom.bluetooth.soc=cherokee
+
+# Camera
+PRODUCT_PACKAGES += \
+    MiuiCamera \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/MiuiCamera/etc/jason.xml:system/etc/device_features/jason.xml \
+    $(LOCAL_PATH)/MiuiCamera/etc/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml
+
+# ConfigPanel
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
+# Connectivity Engine support (CNE)
+PRODUCT_PACKAGES += \
+    cneapiclient \
+    com.quicinc.cne \
+    services-ext
+
+# Consumerir
+PRODUCT_PACKAGES += \
+    android.hardware.ir@1.0-impl \
+    android.hardware.ir@1.0-service
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
+>>>>>>> 5dba5d7... jason: add MIUI camera
 
 # Display
 PRODUCT_COPY_FILES += \
