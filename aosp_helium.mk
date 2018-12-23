@@ -32,6 +32,8 @@ PRODUCT_MODEL := Mi Max Prime
 TARGET_VENDOR := Xiaomi
 CUSTOM_BUILD_TYPE := OFFICIAL
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+TARGET_MINIMAL_APPS := true
+TARGET_GAPPS_ARCH := arm64
 
 # Use the latest approved GMS identifiers unless running a signed build
 PRODUCT_BUILD_PROP_OVERRIDES += \
