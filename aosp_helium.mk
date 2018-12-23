@@ -21,7 +21,7 @@ $(call inherit-product, device/xiaomi/helium/full_helium.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-
+ 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
@@ -30,7 +30,7 @@ PRODUCT_NAME := aosp_helium
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max Prime
 TARGET_VENDOR := Xiaomi
-
+CUSTOM_BUILD_TYPE := OFFICIAL
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Use the latest approved GMS identifiers unless running a signed build
