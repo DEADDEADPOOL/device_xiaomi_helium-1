@@ -336,9 +336,9 @@
     <!--whether add algorithm in file name or not-->
     <bool name="enable_algorithm_in_file_suffix">false</bool>
     <!--whether front camera support bokeh or not-->
-    <bool name="support_front_bokeh">true</bool>
+    <bool name="support_front_bokeh">false</bool>
     <!--whether camera support portrait mode switch -->
-    <bool name="camera_is_support_portrait_switch">true</bool>
+    <bool name="camera_is_support_portrait_switch">false</bool>
     <!--whether support freeform mode in game mode-->
     <bool name="support_freeform_reply">true</bool>
 </features>
