@@ -30,9 +30,9 @@ PRODUCT_COPY_FILES += \
 
 # Xiaomi Shit
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
+
     XiaomiShit
-=======
+
     AntHalService \
     com.dsi.ant.antradio_library
 
@@ -45,6 +45,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    Gcam \
     MiuiCamera \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service
@@ -70,7 +71,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
->>>>>>> 5dba5d7... jason: add MIUI camera
+you
 
 # Display
 PRODUCT_COPY_FILES += \
