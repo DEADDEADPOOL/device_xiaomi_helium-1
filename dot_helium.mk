@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/helium/full_helium.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
  
@@ -26,7 +26,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := helium
-PRODUCT_NAME := aosp_helium
+PRODUCT_NAME := dot_helium
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max Prime
 TARGET_VENDOR := Xiaomi
