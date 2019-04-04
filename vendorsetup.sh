@@ -1,1 +1,1 @@
-add_lunch_combo aosp_helium
+add_lunch_combo pe_helium
